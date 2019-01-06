@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidRequestPermission</string>
+
+
+    <!-- Permission  -->
+    <string name="set_permission">Set Permisssion</string>
+    <string name="msg_permission">We can not continue without this permission.</string>
+    <string name="msg_permission_with_settings">We can not continue without this permission so goto settings screen and grant permission.</string>
+
+</resources>
