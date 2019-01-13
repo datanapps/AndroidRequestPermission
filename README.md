@@ -118,6 +118,6 @@ private void checkPermissionAndOpenCamera(){
 
 
 License Copyright 2019 datanapps.
-
+https://github.com/datanapps/AndroidRequestPermission/blob/master/LICENSE
 
 
