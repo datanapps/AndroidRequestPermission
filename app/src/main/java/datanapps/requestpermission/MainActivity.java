@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
+import android.widget.Button;
 
 import datanapps.requestpermission.requestpermission.PermissionListener;
 import datanapps.requestpermission.requestpermission.RequestPermissionActivity;
@@ -17,8 +18,10 @@ public class MainActivity extends RequestPermissionActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button btnTest = findViewById(R.id.open_camera);
 
-        findViewById(R.id.open_camera).setOnClickListener(new View.OnClickListener() {
+
+        btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 checkPermissionAndOpenCamera();
@@ -59,5 +62,11 @@ public class MainActivity extends RequestPermissionActivity {
         // camera
         Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(cameraIntent, 101);
+
+
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+
     }
 }
