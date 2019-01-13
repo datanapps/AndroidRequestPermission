@@ -2,11 +2,7 @@
 An android library that simplifies the process of requesting android run time permissions.
 An android library to simplifies the process of requesting android run time permissions.
 
-![alt text](https://github.com/datanapps/AndroidRequestPermission/blob/master/screens/android_1.png)
-![alt text](https://github.com/datanapps/AndroidRequestPermission/blob/master/screens/android_2.png)
-![alt text](https://github.com/datanapps/AndroidRequestPermission/blob/master/screens/android_3.png)
-![alt text](https://github.com/datanapps/AndroidRequestPermission/blob/master/screens/android_4.png)
-
+![alt text](https://github.com/datanapps/AndroidRequestPermission/blob/master/screens/android_permission.gif)
 
 Usage :
 
