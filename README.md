@@ -1,6 +1,6 @@
 # AndroidRequestPermission
 An android library that simplifies the process of requesting android run time permissions.
-An android library to simplifies the process of requesting android run time permissions.
+
 
 ![alt text](https://github.com/datanapps/AndroidRequestPermission/blob/master/screens/android_permission.gif)
 
@@ -28,7 +28,6 @@ public class MainActivity extends RequestPermissionActivity
 
 private void checkPermissionAndOpenCamera(){
 
-
         setPermissionGrantedListener(new PermissionListener() {
             @Override
             public void onPermissionGranted(String permissionName) {
@@ -52,11 +51,11 @@ private void checkPermissionAndOpenCamera(){
 
         }
     }
+    =============================================================================
     
+   5.  Full Code:
     
-    5.  Full Code:
-    
-    
+    =============================================================================
     public class MainActivity extends RequestPermissionActivity {
 
     @Override
@@ -108,12 +107,6 @@ private void checkPermissionAndOpenCamera(){
         startActivityForResult(cameraIntent, 101);
     }
 }
-
-
-
-
-
-
 
 
 
