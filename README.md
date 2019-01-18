@@ -51,7 +51,7 @@ private void checkPermissionAndOpenCamera(){
     }
     =============================================================================
     
-   5.  Full Code:
+ 5.  Full Code:
     
     =============================================================================
     public class MainActivity extends RequestPermissionActivity {
