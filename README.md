@@ -6,10 +6,12 @@ An android library that simplifies the process of requesting android run time pe
 
 Usage :
 
-1. add "requestpermission" directory in your project.
+1.
+
+A. Add "javarequestpermission" directory for java project.
+B. Add "kotlinrequestpermission" directory for kotlin project.
 
 2. Add string value in your string.xml file.
-
 
   <!-- Permission  -->
     <string name="set_permission">Set Permisssion</string>
