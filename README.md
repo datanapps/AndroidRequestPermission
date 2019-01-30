@@ -9,6 +9,7 @@ Usage :
 1.
 
 A. Add "javarequestpermission" directory for java project.
+
 B. Add "kotlinrequestpermission" directory for kotlin project.
 
 2. Add string value in your string.xml file.
