@@ -1,4 +1,4 @@
-# AndroidRequestPermission (Implement runtime permission utility)
+# AndroidRequestPermission (java and kotlin) (Implement runtime permission utility)
 An android library that simplifies the process of requesting android run time permissions.
 
 
